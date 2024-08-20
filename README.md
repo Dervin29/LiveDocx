@@ -16,21 +16,37 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# LiveDocX - Collaborative Document Editor
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Introduction
 
-## Learn More
+LiveDocX is a powerful and intuitive collaborative document editor that allows multiple users to work on the same document simultaneously. Built with Next.js and TypeScript, this project showcases real-time editing capabilities, robust document management features, and a seamless user experience. Whether editing alone or with a team, LiveDocX ensures smooth and efficient collaboration.
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Real-Time Collaboration:** Multiple users can edit the same document simultaneously, with instant updates reflected across all sessions.
+- **Document Management:** Create, delete, and easily share documents. Users can organize their documents and manage permissions effortlessly.
+- **Inline and General Comments:** Add comments directly within the document or as general notes, supporting threaded discussions for clear communication.
+- **Active Collaborator Presence:** View real-time indicators showing which collaborators are active on the document.
+- **User Authentication:** Secure sign-in/out with GitHub authentication via NextAuth, ensuring safe access and session management.
+- **Notifications:** Receive alerts for document shares, new comments, and collaborator activities.
+- **Responsive Design:** Optimized for all devices, offering a consistent experience whether on a desktop, tablet, or mobile.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
+- **Frontend:** Next.js, TypeScript, Tailwind CSS, ShadCN
+- **Editor:** Liveblocks, Lexical Editor
+- **Authentication:** NextAuth with GitHub
+- **Collaboration:** Liveblocks for real-time updates and presence
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Follow these steps to set up the project locally:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/LiveDocX.git
+   cd LiveDocX
+
+## Hosted Link:
+Check out the live version of the app: [LiveDocX](https://live-docx-amber.vercel.app/)
